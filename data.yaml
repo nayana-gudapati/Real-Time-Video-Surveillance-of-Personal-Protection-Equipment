@@ -1,0 +1,13 @@
+train: 'C:\Users\saraw\Downloads\yolo2\train\images'
+val: 'C:\Users\saraw\Downloads\yolo2\valid\images'
+test: 'C:\Users\saraw\Downloads\yolo2\test\images'
+
+nc: 4
+names: ['Helmet', 'No Helmet', 'No Safety Vest', 'Safety Vest']
+
+roboflow:
+  workspace: class-jntyw
+  project: vest.v3i.yolov8
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/class-jntyw/vest.v3i.yolov8/dataset/2
